@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My portfolio</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script defer src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script defer src="js/app.js"></script>
+    <script defer src="js/typed-text.js"></script>
+  </head>
+  <body>
+
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <a href="#">
+            <span class="logo-span">&lt;box&gt;</span class="logo-span">Yevhenii<span class="logo-span">&lt;/box&gt;</span>
+          </a>
+        </div>
+
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <nav class="primary-navigation">
+          <ul class="links">
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#pet-projects">Pet-projects</a></li>
+            <li><a href="#contacts">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <section class="hero">
+        <div class="hero-about-me col-1">
+          <span class="topline">Hello</span>
+          <h1>I'm <span class="multiText"></span></h1>
+          <p>My name is Yevhenii Korobka, I'm beginer webdeveloper and I keen on IT. If you wanna learn more about me click on the button below :)</p>
+          <div class="hero-btn">
+            <button>download CV</button>
+            <button>hire me</button>
+          </div>
+        </div>
+        
+        <div class="hero-photo col-2">
+           <img src="img/me.png" alt="my_photo">
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="about-me" id="about-me">
+        <p>Years ago, I became interested in developing websites and interfaces. Since then, I have been steadily improving my skills. Now I am developing websites and web applications to order or for myself.</p>
+      </section>
+
+      <section class="my-skills" id="skills">
+        <h2>My skills</h2>
+        
+        <div class="my-skills__wrapper">
+          <div class="html">
+            <svg class="icon">
+              <use xlink:href="img/icon_html.svg#html"></use>
+            </svg>
+            <p>HTML5</p>
+          </div>
+  
+          <div class="css">
+            <svg class="icon">
+              <use xlink:href="img/icon_css.svg#css"></use>
+            </svg>
+            <p>CSS</p>
+          </div>
+  
+          <div class="js">
+            <svg class="icon">
+              <use xlink:href="img/icon_js.svg#js"></use>
+            </svg>
+            <p>JavaScript</p>
+          </div>
+  
+          <div class="tailwind">
+            <svg class="icon">
+              <use xlink:href="img/icon_tailwind-css.svg#tailwind"></use>
+            </svg>
+            <p>Tailwindcss</p>
+          </div>
+  
+          <div class="git">
+            <svg class="icon">
+              <use xlink:href="img/icon_git.svg#git"></use>
+            </svg>
+            <p>Git</p>
+          </div>
+        </div>
+        
+      </section>
+
+      <section class="pet-projects" id="pet-projects">
+
+        <h2>My Pet-projects</h2>
+        <div class="project">
+          <img src="img/tic-tac-toe.png" alt="img of the site">
+          <div class="project-description">
+            <h3>Tic Tac Toe</h3>
+            <p>HTML, CSS, JS</p>
+            <hr class="hr_style">
+            <p>A small project with an emphasis on JS</p>
+            <a href="https://jekapan.github.io/tic_tac_toe/" target="_blank" class="project-btn">Open</a> 
+          </div>
+        </div>
+        <div class="project">
+          <img src="img/tailwind.png" alt="img of the site">
+          <div class="project-description">
+            <h3>Project 2</h3>
+            <p>HTML, Tailwindcss</p>
+            <hr class="hr_style">
+            <p>Project with using Tailwind css</p>
+            <a href="https://jekapan.github.io/first_tailwindcss-/" target="_blank" class="project-btn">Open</a> 
+          </div>
+        </div>
+        <div class="project">
+          <img src="img/you_tube.png" alt="img of the site">
+          <div class="project-description">
+            <h3>Project 3</h3>
+            <p>HTML, CSS, JS</p>
+            <hr class="hr_style">
+            <p>Just an another page</p>
+            <a href="https://jekapan.github.io/Test_1/" target="_blank" class="project-btn">Open</a> 
+          </div>
+        </div>
+
+      </section>
+    </main>
+
+    <footer id="contacts">
+      <div class="footer-wrapper">
+        <div>
+          <h2>Contacts</h2>
+          <p>If you liked my work and you need me, I'm ready to talk to you.</p>
+        </div>
+        <ul class="contacts">
+          <li><a href="#"><i class="fa-regular fa-envelope"></i>Yevheniikorobka1995@gmail.com</a></li>
+          <li><a href="#"><i class="fa-regular fa-paper-plane"></i>@jekapan</a></li>
+          <li><a href="#"><i class="fa-brands fa-github"></i>Jekapan</a></li>
+          <li><a href="#"><i class="fa-brands fa-instagram"></i>@jekapan_01</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
