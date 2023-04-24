@@ -42,7 +42,7 @@
         </nav>
       </div>
 
-      <section class="hero">
+      <section class="hero hidden">
         <div class="hero-about-me col-1">
           <span class="topline">Hello</span>
           <h1>I'm <span class="multiText"></span></h1>
@@ -61,42 +61,42 @@
 
     <main>
       <section class="about-me" id="about-me">
-        <p>Years ago, I became interested in developing websites and interfaces. Since then, I have been steadily improving my skills. Now I am developing websites and web applications to order or for myself.</p>
+        <p class="hidden">Years ago, I became interested in developing websites and interfaces. Since then, I have been steadily improving my skills. Now I am developing websites and web applications to order or for myself.</p>
       </section>
 
       <section class="my-skills" id="skills">
-        <h2>My skills</h2>
+        <h2 class="hidden">My skills</h2>
         
         <div class="my-skills__wrapper">
-          <div class="html">
+          <div class="html card hidden">
             <svg class="icon">
               <use xlink:href="img/icon_html.svg#html"></use>
             </svg>
             <p>HTML5</p>
           </div>
   
-          <div class="css">
+          <div class="css card hidden">
             <svg class="icon">
               <use xlink:href="img/icon_css.svg#css"></use>
             </svg>
             <p>CSS</p>
           </div>
   
-          <div class="js">
+          <div class="js card hidden">
             <svg class="icon">
               <use xlink:href="img/icon_js.svg#js"></use>
             </svg>
             <p>JavaScript</p>
           </div>
   
-          <div class="tailwind">
+          <div class="tailwind card hidden">
             <svg class="icon">
               <use xlink:href="img/icon_tailwind-css.svg#tailwind"></use>
             </svg>
             <p>Tailwindcss</p>
           </div>
   
-          <div class="git">
+          <div class="git card hidden">
             <svg class="icon">
               <use xlink:href="img/icon_git.svg#git"></use>
             </svg>
@@ -108,8 +108,9 @@
 
       <section class="pet-projects" id="pet-projects">
 
-        <h2>My Pet-projects</h2>
-        <div class="project">
+        <h2 class="hidden">My Pet-projects</h2>
+
+        <div class="project hidden">
           <img src="img/tic-tac-toe.png" alt="img of the site">
           <div class="project-description">
             <h3>Tic Tac Toe</h3>
@@ -119,7 +120,8 @@
             <a href="https://jekapan.github.io/tic_tac_toe/" target="_blank" class="project-btn">Open</a> 
           </div>
         </div>
-        <div class="project">
+
+        <div class="project hidden">
           <img src="img/tailwind.png" alt="img of the site">
           <div class="project-description">
             <h3>Project 2</h3>
@@ -129,7 +131,8 @@
             <a href="https://jekapan.github.io/first_tailwindcss-/" target="_blank" class="project-btn">Open</a> 
           </div>
         </div>
-        <div class="project">
+        
+        <div class="project hidden">
           <img src="img/you_tube.png" alt="img of the site">
           <div class="project-description">
             <h3>Project 3</h3>
@@ -143,19 +146,17 @@
       </section>
     </main>
 
-    <footer id="contacts">
-      <div class="footer-wrapper">
-        <div>
-          <h2>Contacts</h2>
-          <p>If you liked my work and you need me, I'm ready to talk to you.</p>
-        </div>
-        <ul class="contacts">
-          <li><a href="#"><i class="fa-regular fa-envelope"></i>Yevheniikorobka1995@gmail.com</a></li>
-          <li><a href="#"><i class="fa-regular fa-paper-plane"></i>@jekapan</a></li>
-          <li><a href="#"><i class="fa-brands fa-github"></i>Jekapan</a></li>
-          <li><a href="#"><i class="fa-brands fa-instagram"></i>@jekapan_01</a></li>
-        </ul>
+    <footer class="hidden" id="contacts">
+      <div>
+        <h2>Contacts</h2>
+        <p>If you liked my work and you need me, I'm ready to talk to you.</p>
       </div>
+      <ul class="contacts">
+        <li><a href="#"><i class="fa-regular fa-envelope"></i>Yevheniikorobka1995@gmail.com</a></li>
+        <li><a href="#"><i class="fa-regular fa-paper-plane"></i>@jekapan</a></li>
+        <li><a href="#"><i class="fa-brands fa-github"></i>Jekapan</a></li>
+        <li><a href="#"><i class="fa-brands fa-instagram"></i>@jekapan_01</a></li>
+      </ul>
     </footer>
   </body>
 </html>
