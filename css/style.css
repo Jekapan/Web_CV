@@ -22,8 +22,8 @@ html {
 
 body {
   height: 100vh;
-  background-image: url("../img/body-bg.jpg");
-  /* background-color: #21201d; */
+  /* background-image: url("../img/body-bg.jpg"); */
+  background-color: #21201d;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -537,12 +537,6 @@ footer p {
   .hero-about-me p {
     backdrop-filter: none;
   }
-
-  /* .footer-wrapper {
-    display: flex;
-    gap: 2rem;
-    justify-content: center;
-  } */
 }
 
 /* Utilitise */
