@@ -22,8 +22,8 @@ html {
 
 body {
   height: 100vh;
-  /* background-image: url("../img/body-bg.jpg"); */
-  background-color: #21201d;
+  background-image: url("../img/body-bg.jpg");
+/*   background-color: #21201d; */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
